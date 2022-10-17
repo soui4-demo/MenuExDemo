@@ -1,0 +1,17 @@
+﻿<menuRoot itemHeight="38" iconPos="12" textOffset="18" font="face:微软雅黑,size:14"
+           maxWidth="398" minWidth="198"
+          margin="2,2,2,2" colorBkgnd="#ffffff"  alpha="220">
+  <menuItem icon="1" cursor="hand" text="language" contextHelpId="100">
+    <menuItem size="-1,-1" skin="" id="200" layout="vbox">
+      <langView size="-1,-1" name="lv_language" >
+        <template itemHeight="30" layout="hbox" skin="skin_item_bk" gravity="center">
+          <text name="txt_test" text="hello" extend_left="10"/>
+        </template>
+      </langView>
+    </menuItem>
+  </menuItem>
+  <menuItem icon="1" text="menu1" />
+  <menuItem icon="1" text="menu2" />
+  <sep/>
+  <menuItem icon="1" text="exit" id="IDCANCEL"/>
+</menuRoot>
